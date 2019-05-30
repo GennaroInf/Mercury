@@ -1,1 +1,0 @@
-select  nome from province,regioni where regioni.id=province_id
