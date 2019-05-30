@@ -8,7 +8,6 @@
 <body>
 <h1>Comune di Pomarrano Terme</h1>
 
-
 <table border=0>
 <tr>
 <td>
