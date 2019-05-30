@@ -19,9 +19,20 @@ public class Regione
 	private int id;
 	@Column(name = "nome")
 	private String nome;
-	@Column(name = "latitudine")
-	private long latitudine;
-	@Column(name = "longitudine")
-	private long longitudine;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+
+	
 	
 }

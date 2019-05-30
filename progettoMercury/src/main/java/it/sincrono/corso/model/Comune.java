@@ -20,4 +20,29 @@ public class Comune
 	private int idRegione;
 	@Column(name="id_provincia")
 	private int idProvincia;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getIdRegione() {
+		return idRegione;
+	}
+	public void setIdRegione(int idRegione) {
+		this.idRegione = idRegione;
+	}
+	public int getIdProvincia() {
+		return idProvincia;
+	}
+	public void setIdProvincia(int idProvincia) {
+		this.idProvincia = idProvincia;
+	}
+	
 }

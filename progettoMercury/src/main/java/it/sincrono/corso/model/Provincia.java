@@ -19,5 +19,23 @@ public class Provincia
 	private String nome;
 	@Column(name="id_regione")
 	private int idRegione;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getIdRegione() {
+		return idRegione;
+	}
+	public void setIdRegione(int idRegione) {
+		this.idRegione = idRegione;
+	}
 	
 }
